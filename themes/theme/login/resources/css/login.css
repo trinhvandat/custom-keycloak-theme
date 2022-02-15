@@ -1,0 +1,31 @@
+#main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  background: #FFFFFF;
+}
+
+body{
+  margin: auto;
+}
+
+#backgound_left{
+  width: 50%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: #C4C4C4;
+}
+
+#image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.background_right{
+  margin-top: 30px;
+  margin-left: 100px;
+}
