@@ -50,5 +50,15 @@
                 </#if>
             </div>
         </div>
+
+    <#elseif section = "info" >
+        <#if realm.registrationAllowed>
+            <div id="kc-registration-container">
+                <div id="kc-registration">
+                    <span>If you don't have an account <a tabindex="6"
+                             href="${url.registrationUrl}">Sign up</a></span>
+                </div>
+            </div>
+        </#if>
     </#if>
 </@layout.registrationLayout>

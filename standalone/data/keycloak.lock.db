@@ -1,6 +1,6 @@
 #FileLock
-#Tue Feb 15 20:49:20 ICT 2022
+#Wed Feb 16 22:11:11 ICT 2022
 hostName=DESKTOP-TV8KUH0
-id=17efda5075c88d1d2d2c7be3e6ccf5399a68916eee2
+id=17f03165469087f5fdf47e1f6ff3905dfb2b0ec6496
 method=file
-server=192.168.1.3\:1269
+server=192.168.1.3\:1237
