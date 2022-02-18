@@ -1,64 +1,8 @@
-2022-02-16 07:15:18,107 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\deployments
-2022-02-16 07:15:18,202 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
-2022-02-16 07:15:18,122 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2022-02-16 07:15:20,650 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 54) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.9.Final
-2022-02-16 07:15:20,783 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2022-02-16 07:15:20,785 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2022-02-16 07:15:20,852 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 54) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
-2022-02-16 07:15:20,852 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 55) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2022-02-16 07:15:21,177 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
-2022-02-16 07:15:21,199 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started clientSessions cache from keycloak container
-2022-02-16 07:15:21,200 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
-2022-02-16 07:15:21,200 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started work cache from keycloak container
-2022-02-16 07:15:21,200 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started sessions cache from keycloak container
-2022-02-16 07:15:21,200 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started loginFailures cache from keycloak container
-2022-02-16 07:15:21,200 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started actionTokens cache from keycloak container
-2022-02-16 07:15:21,201 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
-2022-02-16 07:15:21,201 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started offlineSessions cache from keycloak container
-2022-02-16 07:15:21,239 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started users cache from keycloak container
-2022-02-16 07:15:21,239 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started keys cache from keycloak container
-2022-02-16 07:15:21,239 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started realms cache from keycloak container
-2022-02-16 07:15:21,239 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started authorization cache from keycloak container
-2022-02-16 07:15:21,923 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
-2022-02-16 07:15:23,183 INFO  [org.keycloak.services] (ServerService Thread Pool -- 66) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
-2022-02-16 07:15:24,253 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 66) Frontend: <request>, Admin: <frontend>, Backend: <request>
-2022-02-16 07:15:24,407 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started realmRevisions cache from keycloak container
-2022-02-16 07:15:24,412 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started userRevisions cache from keycloak container
-2022-02-16 07:15:24,417 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
-2022-02-16 07:15:24,418 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 66) Node name: desktop-tv8kuh0, Site name: null
-2022-02-16 07:15:30,000 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 66) Database info: {databaseUrl=jdbc:h2:F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
-2022-02-16 07:15:31,288 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 66) HHH000204: Processing PersistenceUnitInfo [
-	name: keycloak-default
-	...]
-2022-02-16 07:15:31,448 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 66) HHH000412: Hibernate Core {5.3.20.Final}
-2022-02-16 07:15:31,450 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 66) HHH000206: hibernate.properties not found
-2022-02-16 07:15:31,903 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 66) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
-2022-02-16 07:15:32,141 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2022-02-16 07:15:32,210 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 66) Envers integration enabled? : true
-2022-02-16 07:15:32,851 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 66) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
-2022-02-16 07:15:32,963 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 66) HV000001: Hibernate Validator 6.0.22.Final
-2022-02-16 07:15:34,026 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 66) HHH000397: Using ASTQueryTranslatorFactory
-2022-02-16 07:15:35,016 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,018 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,020 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,021 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,022 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,023 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,053 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,054 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,056 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,056 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 07:15:35,449 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
-2022-02-16 07:15:35,812 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 43) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
-2022-02-16 07:15:35,869 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2022-02-16 07:15:35,873 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 15.0.2 (WildFly Core 15.0.1.Final) started in 37710ms - Started 594 of 872 services (584 services are lazy, passive or on-demand)
-2022-02-16 07:15:35,878 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2022-02-16 07:15:35,879 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2022-02-16 22:10:46,662 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
-2022-02-16 22:10:49,966 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
-2022-02-16 22:10:49,982 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
-2022-02-16 22:10:50,241 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 15.0.2 (WildFly Core 15.0.1.Final) starting
-2022-02-16 22:10:50,243 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+2022-02-18 15:52:37,670 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2022-02-18 15:52:43,584 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2022-02-18 15:52:43,598 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2022-02-18 15:52:43,920 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 15.0.2 (WildFly Core 15.0.1.Final) starting
+2022-02-18 15:52:43,926 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
 	awt.toolkit = sun.awt.windows.WToolkit
 	file.encoding = Cp1252
 	file.encoding.pkg = sun.io
@@ -139,333 +83,93 @@
 	user.script = 
 	user.timezone = Asia/Bangkok
 	user.variant = 
-2022-02-16 22:10:50,244 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\log\server.log -Dlogging.configuration=file:F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration/logging.properties 
-2022-02-16 22:10:53,027 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.15.3.Final
-2022-02-16 22:10:55,122 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
-2022-02-16 22:10:56,498 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2022-02-16 22:10:56,516 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2022-02-16 22:10:56,628 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2022-02-16 22:10:56,672 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.4.Final
-2022-02-16 22:10:56,678 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.4.Final
-2022-02-16 22:10:56,822 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 36) WFLYHEALTH0001: Activating Base Health Subsystem
-2022-02-16 22:10:56,823 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) WFLYCLINF0001: Activating Infinispan subsystem.
-2022-02-16 22:10:56,830 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 51) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2022-02-16 22:10:56,838 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 49) WFLYSEC0002: Activating Security Subsystem
-2022-02-16 22:10:56,843 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
-2022-02-16 22:10:56,844 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 45) WFLYMETRICS0001: Activating Base Metrics Subsystem
-2022-02-16 22:10:56,862 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
-2022-02-16 22:10:57,034 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 38) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
-2022-02-16 22:10:57,059 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
-2022-02-16 22:10:57,060 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2022-02-16 22:10:57,093 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.20.Final
-2022-02-16 22:10:57,117 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY00023: KeyStore file 'F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration\application.keystore' does not exist. Used blank.
-2022-02-16 22:10:57,146 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY01084: KeyStore F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
-2022-02-16 22:10:57,199 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.27.Final)
-2022-02-16 22:10:57,250 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 31) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
-2022-02-16 22:10:57,270 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
-2022-02-16 22:10:57,545 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.2.5.Final starting
-2022-02-16 22:10:58,092 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 52) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
-2022-02-16 22:10:58,207 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 39) WFLYRS0016: RESTEasy version 3.15.1.Final
-2022-02-16 22:10:58,624 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2022-02-16 22:10:58,624 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
-2022-02-16 22:10:58,694 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 52) WFLYUT0014: Creating file handler for path 'F:\Code\BSOA\Keycloak\keycloak-15.0.2/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2022-02-16 22:10:58,728 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
-2022-02-16 22:10:58,728 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
-2022-02-16 22:10:58,728 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
-2022-02-16 22:10:58,752 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
-2022-02-16 22:10:58,771 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
-2022-02-16 22:10:58,773 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
-2022-02-16 22:10:58,837 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2022-02-16 22:11:00,180 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
-2022-02-16 22:11:00,207 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
-2022-02-16 22:11:00,237 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\deployments
-2022-02-16 22:11:00,368 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2022-02-16 22:11:00,395 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
-2022-02-16 22:11:02,669 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 54) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.9.Final
-2022-02-16 22:11:02,777 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2022-02-16 22:11:02,778 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2022-02-16 22:11:02,883 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 55) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2022-02-16 22:11:02,883 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 54) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
-2022-02-16 22:11:03,222 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
-2022-02-16 22:11:03,243 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started sessions cache from keycloak container
-2022-02-16 22:11:03,244 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
-2022-02-16 22:11:03,251 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started clientSessions cache from keycloak container
-2022-02-16 22:11:03,252 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started offlineSessions cache from keycloak container
-2022-02-16 22:11:03,255 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started work cache from keycloak container
-2022-02-16 22:11:03,258 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started loginFailures cache from keycloak container
-2022-02-16 22:11:03,259 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started actionTokens cache from keycloak container
-2022-02-16 22:11:03,258 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
-2022-02-16 22:11:03,321 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started realms cache from keycloak container
-2022-02-16 22:11:03,321 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started authorization cache from keycloak container
-2022-02-16 22:11:03,321 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started keys cache from keycloak container
-2022-02-16 22:11:03,321 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started users cache from keycloak container
-2022-02-16 22:11:03,971 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
-2022-02-16 22:11:04,999 INFO  [org.keycloak.services] (ServerService Thread Pool -- 66) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
-2022-02-16 22:11:05,318 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 66) Frontend: <request>, Admin: <frontend>, Backend: <request>
-2022-02-16 22:11:06,186 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started realmRevisions cache from keycloak container
-2022-02-16 22:11:06,194 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started userRevisions cache from keycloak container
-2022-02-16 22:11:06,201 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
-2022-02-16 22:11:06,203 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 66) Node name: desktop-tv8kuh0, Site name: null
-2022-02-16 22:11:12,017 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 66) Database info: {databaseUrl=jdbc:h2:F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
-2022-02-16 22:11:13,274 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 66) HHH000204: Processing PersistenceUnitInfo [
+2022-02-18 15:52:43,954 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\log\server.log -Dlogging.configuration=file:F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration/logging.properties 
+2022-02-18 15:52:47,632 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.15.3.Final
+2022-02-18 15:52:51,400 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 5) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2022-02-18 15:52:53,474 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-02-18 15:52:53,502 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-02-18 15:52:53,696 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2022-02-18 15:52:53,770 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.4.Final
+2022-02-18 15:52:53,779 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.4.Final
+2022-02-18 15:52:53,883 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 51) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-02-18 15:52:53,891 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) WFLYCLINF0001: Activating Infinispan subsystem.
+2022-02-18 15:52:53,894 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 36) WFLYHEALTH0001: Activating Base Health Subsystem
+2022-02-18 15:52:53,897 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 45) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2022-02-18 15:52:53,904 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 49) WFLYSEC0002: Activating Security Subsystem
+2022-02-18 15:52:53,994 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.27.Final)
+2022-02-18 15:52:54,049 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2022-02-18 15:52:54,220 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 38) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2022-02-18 15:52:54,237 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2022-02-18 15:52:54,364 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file 'F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration\application.keystore' does not exist. Used blank.
+2022-02-18 15:52:54,383 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2022-02-18 15:52:54,384 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-02-18 15:52:54,391 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.20.Final
+2022-02-18 15:52:54,467 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 31) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-02-18 15:52:54,469 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-02-18 15:52:54,494 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2022-02-18 15:52:54,930 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.2.5.Final starting
+2022-02-18 15:52:55,321 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 52) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2022-02-18 15:52:55,631 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2022-02-18 15:52:55,631 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-02-18 15:52:55,711 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 39) WFLYRS0016: RESTEasy version 3.15.1.Final
+2022-02-18 15:52:55,937 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 52) WFLYUT0014: Creating file handler for path 'F:\Code\BSOA\Keycloak\keycloak-15.0.2/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-02-18 15:52:55,944 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-02-18 15:52:55,951 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2022-02-18 15:52:55,953 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2022-02-18 15:52:55,954 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2022-02-18 15:52:56,023 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2022-02-18 15:52:56,043 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2022-02-18 15:52:56,046 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2022-02-18 15:52:58,301 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2022-02-18 15:52:58,326 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2022-02-18 15:52:58,358 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\deployments
+2022-02-18 15:52:58,425 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2022-02-18 15:52:58,445 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2022-02-18 15:53:01,037 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 55) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.9.Final
+2022-02-18 15:53:01,125 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-02-18 15:53:01,128 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-02-18 15:53:01,209 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 55) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2022-02-18 15:53:01,209 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 54) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2022-02-18 15:53:01,535 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2022-02-18 15:53:01,558 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2022-02-18 15:53:01,560 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2022-02-18 15:53:01,562 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started sessions cache from keycloak container
+2022-02-18 15:53:01,562 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2022-02-18 15:53:01,562 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2022-02-18 15:53:01,563 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started work cache from keycloak container
+2022-02-18 15:53:01,563 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2022-02-18 15:53:01,563 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2022-02-18 15:53:01,619 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started users cache from keycloak container
+2022-02-18 15:53:01,619 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started realms cache from keycloak container
+2022-02-18 15:53:01,618 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started keys cache from keycloak container
+2022-02-18 15:53:01,619 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authorization cache from keycloak container
+2022-02-18 15:53:02,643 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2022-02-18 15:53:03,822 INFO  [org.keycloak.services] (ServerService Thread Pool -- 57) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2022-02-18 15:53:04,932 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 57) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2022-02-18 15:53:05,228 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2022-02-18 15:53:05,234 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2022-02-18 15:53:05,240 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2022-02-18 15:53:05,241 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 57) Node name: desktop-tv8kuh0, Site name: null
+2022-02-18 15:53:11,002 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 57) Database info: {databaseUrl=jdbc:h2:F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2022-02-18 15:53:12,988 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 57) HHH000204: Processing PersistenceUnitInfo [
 	name: keycloak-default
 	...]
-2022-02-16 22:11:13,438 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 66) HHH000412: Hibernate Core {5.3.20.Final}
-2022-02-16 22:11:13,441 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 66) HHH000206: hibernate.properties not found
-2022-02-16 22:11:14,061 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 66) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
-2022-02-16 22:11:14,246 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2022-02-16 22:11:14,323 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 66) Envers integration enabled? : true
-2022-02-16 22:11:14,792 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 66) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
-2022-02-16 22:11:14,905 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 66) HV000001: Hibernate Validator 6.0.22.Final
-2022-02-16 22:11:15,987 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 66) HHH000397: Using ASTQueryTranslatorFactory
-2022-02-16 22:11:16,963 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,967 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,968 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,971 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,971 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,972 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,973 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,973 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,974 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:16,974 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 66) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
-2022-02-16 22:11:17,467 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
-2022-02-16 22:11:17,752 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 43) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
-2022-02-16 22:11:17,794 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2022-02-16 22:11:17,797 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 15.0.2 (WildFly Core 15.0.1.Final) started in 37061ms - Started 594 of 872 services (584 services are lazy, passive or on-demand)
-2022-02-16 22:11:17,802 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2022-02-16 22:11:17,802 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2022-02-16 22:18:16,019 WARN  [org.keycloak.events] (default task-1) type=LOGIN_ERROR, realmId=master, clientId=security-admin-console, userId=f7c6d16f-053d-4c04-9d88-a06881df9e3e, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:8080/auth/admin/master/console/, code_id=c85e22fe-1440-48c8-9ae4-bdc5fbb8f9f4, username=admin, authSessionParentId=c85e22fe-1440-48c8-9ae4-bdc5fbb8f9f4, authSessionTabId=uW3LHzwJkL0
-2022-02-16 22:34:41,396 ERROR [org.keycloak.forms.login.freemarker.FreeMarkerLoginFormsProvider] (default task-2) Failed to process template: org.keycloak.theme.FreeMarkerException: Failed to process template login.ftl
-	at org.keycloak.theme.FreeMarkerUtil.processTemplate(FreeMarkerUtil.java:71)
-	at org.keycloak.forms.login.freemarker.FreeMarkerLoginFormsProvider.processTemplate(FreeMarkerLoginFormsProvider.java:505)
-	at org.keycloak.forms.login.freemarker.FreeMarkerLoginFormsProvider.createResponse(FreeMarkerLoginFormsProvider.java:270)
-	at org.keycloak.forms.login.freemarker.FreeMarkerLoginFormsProvider.createLoginUsernamePassword(FreeMarkerLoginFormsProvider.java:520)
-	at org.keycloak.authentication.authenticators.browser.UsernamePasswordForm.challenge(UsernamePasswordForm.java:87)
-	at org.keycloak.authentication.authenticators.browser.UsernamePasswordForm.authenticate(UsernamePasswordForm.java:73)
-	at org.keycloak.authentication.DefaultAuthenticationFlow.processSingleFlowExecutionModel(DefaultAuthenticationFlow.java:446)
-	at org.keycloak.authentication.DefaultAuthenticationFlow.processFlow(DefaultAuthenticationFlow.java:253)
-	at org.keycloak.authentication.DefaultAuthenticationFlow.processSingleFlowExecutionModel(DefaultAuthenticationFlow.java:389)
-	at org.keycloak.authentication.DefaultAuthenticationFlow.processFlow(DefaultAuthenticationFlow.java:276)
-	at org.keycloak.authentication.AuthenticationProcessor.authenticateOnly(AuthenticationProcessor.java:990)
-	at org.keycloak.authentication.AuthenticationProcessor.authenticate(AuthenticationProcessor.java:852)
-	at org.keycloak.protocol.AuthorizationEndpointBase.handleBrowserAuthenticationRequest(AuthorizationEndpointBase.java:151)
-	at org.keycloak.protocol.oidc.endpoints.AuthorizationEndpoint.buildAuthorizationCodeAuthorizationResponse(AuthorizationEndpoint.java:300)
-	at org.keycloak.protocol.oidc.endpoints.AuthorizationEndpoint.process(AuthorizationEndpoint.java:183)
-	at org.keycloak.protocol.oidc.endpoints.AuthorizationEndpoint.buildGet(AuthorizationEndpoint.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:138)
-	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:546)
-	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:435)
-	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:396)
-	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
-	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:398)
-	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:365)
-	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:150)
-	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:110)
-	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:141)
-	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:104)
-	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:440)
-	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:229)
-	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:135)
-	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
-	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:138)
-	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:215)
-	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:245)
-	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:61)
-	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
-	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
-	at org.keycloak.provider.wildfly.WildFlyRequestFilter.lambda$doFilter$0(WildFlyRequestFilter.java:41)
-	at org.keycloak.services.filters.AbstractRequestFilter.filter(AbstractRequestFilter.java:43)
-	at org.keycloak.provider.wildfly.WildFlyRequestFilter.doFilter(WildFlyRequestFilter.java:39)
-	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
-	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
-	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
-	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
-	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
-	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
-	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
-	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
-	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
-	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
-	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
-	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
-	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
-	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
-	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
-	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
-	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
-	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
-	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
-	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
-	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
-	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
-	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
-	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
-	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
-	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
-	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
-	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
-	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
-	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
-	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
-	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
-	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: freemarker.core.ParseException: Syntax error in template "login.ftl" in line 55, column 5:
-Encountered "<#elseif ", which can only be used where an #if could be closed, but at this place only this can be closed: "@...".
-Was expecting one of these patterns:
-    <ATTEMPT>
-    <IF>
-    <LIST>
-    <ITEMS>
-    <SEP>
-    <FOREACH>
-    <SWITCH>
-    <ASSIGN>
-    <GLOBALASSIGN>
-    <LOCALASSIGN>
-    <_INCLUDE>
-    <IMPORT>
-    <FUNCTION>
-    <MACRO>
-    <TRANSFORM>
-    <VISIT>
-    <STOP>
-    <RETURN>
-    <CALL>
-    <SETTING>
-    <OUTPUTFORMAT>
-    <AUTOESC>
-    <NOAUTOESC>
-    <COMPRESS>
-    <COMMENT>
-    <TERSE_COMMENT>
-    <NOPARSE>
-    <BREAK>
-    <CONTINUE>
-    <SIMPLE_RETURN>
-    <HALT>
-    <FLUSH>
-    <TRIM>
-    <LTRIM>
-    <RTRIM>
-    <NOTRIM>
-    <SIMPLE_NESTED>
-    <NESTED>
-    <SIMPLE_RECURSE>
-    <RECURSE>
-    <FALLBACK>
-    <ESCAPE>
-    <NOESCAPE>
-    <UNIFIED_CALL>
-    <UNIFIED_CALL_END>
-    <STATIC_TEXT_WS>
-    <STATIC_TEXT_NON_WS>
-    <STATIC_TEXT_FALSE_ALARM>
-    "${"
-    "#{"
-    "[="
-	at freemarker.core.FMParser.generateParseException(FMParser.java:6120)
-	at freemarker.core.FMParser.jj_consume_token(FMParser.java:5979)
-	at freemarker.core.FMParser.UnifiedMacroTransform(FMParser.java:3010)
-	at freemarker.core.FMParser.FreemarkerDirective(FMParser.java:3664)
-	at freemarker.core.FMParser.MixedContentElements(FMParser.java:4019)
-	at freemarker.core.FMParser.Root(FMParser.java:4665)
-	at freemarker.template.Template.<init>(Template.java:252)
-	at freemarker.cache.TemplateCache.loadTemplate(TemplateCache.java:548)
-	at freemarker.cache.TemplateCache.getTemplateInternal(TemplateCache.java:439)
-	at freemarker.cache.TemplateCache.getTemplate(TemplateCache.java:292)
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2836)
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2703)
-	at org.keycloak.theme.FreeMarkerUtil.getTemplate(FreeMarkerUtil.java:85)
-	at org.keycloak.theme.FreeMarkerUtil.processTemplate(FreeMarkerUtil.java:64)
-	... 91 more
-
-2022-02-16 22:34:41,453 ERROR [org.keycloak.headers.DefaultSecurityHeadersProvider] (default task-2) MediaType not set on path /auth/realms/BSOA/protocol/openid-connect/auth, with response status 500
-2022-02-16 22:34:41,456 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (default task-2) Uncaught server error: javax.ws.rs.InternalServerErrorException: HTTP 500 Internal Server Error
-	at org.keycloak.headers.DefaultSecurityHeadersProvider.addHeaders(DefaultSecurityHeadersProvider.java:75)
-	at org.keycloak.services.filters.KeycloakSecurityHeadersFilter.filter(KeycloakSecurityHeadersFilter.java:39)
-	at org.jboss.resteasy.core.interception.ContainerResponseContextImpl.filter(ContainerResponseContextImpl.java:357)
-	at org.jboss.resteasy.core.ServerResponseWriter.executeFilters(ServerResponseWriter.java:219)
-	at org.jboss.resteasy.core.ServerResponseWriter.writeNomapResponse(ServerResponseWriter.java:95)
-	at org.jboss.resteasy.core.ServerResponseWriter.writeNomapResponse(ServerResponseWriter.java:69)
-	at org.jboss.resteasy.core.SynchronousDispatcher.writeResponse(SynchronousDispatcher.java:530)
-	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:461)
-	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:229)
-	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:135)
-	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
-	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:138)
-	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:215)
-	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:245)
-	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:61)
-	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
-	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
-	at org.keycloak.provider.wildfly.WildFlyRequestFilter.lambda$doFilter$0(WildFlyRequestFilter.java:41)
-	at org.keycloak.services.filters.AbstractRequestFilter.filter(AbstractRequestFilter.java:43)
-	at org.keycloak.provider.wildfly.WildFlyRequestFilter.doFilter(WildFlyRequestFilter.java:39)
-	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
-	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
-	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
-	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
-	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
-	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
-	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
-	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
-	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
-	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
-	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
-	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
-	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
-	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
-	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
-	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
-	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
-	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
-	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
-	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
-	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
-	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
-	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
-	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
-	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
-	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
-	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
-	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
-	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
-	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
-	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
-	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
-	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
-	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
-	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
-	at java.lang.Thread.run(Unknown Source)
-
+2022-02-18 15:53:13,147 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 57) HHH000412: Hibernate Core {5.3.20.Final}
+2022-02-18 15:53:13,150 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000206: hibernate.properties not found
+2022-02-18 15:53:13,713 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 57) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2022-02-18 15:53:13,925 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 57) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-18 15:53:13,997 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 57) Envers integration enabled? : true
+2022-02-18 15:53:14,622 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 57) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2022-02-18 15:53:14,753 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 57) HV000001: Hibernate Validator 6.0.22.Final
+2022-02-18 15:53:16,082 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 57) HHH000397: Using ASTQueryTranslatorFactory
+2022-02-18 15:53:17,219 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,221 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,222 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,223 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,224 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,224 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,225 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,226 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,226 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,227 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2022-02-18 15:53:17,701 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 57) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
