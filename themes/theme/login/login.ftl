@@ -23,7 +23,7 @@
         <div class="login">
             <div>
                 <div class="login-header">
-                    <img src="" alt="logo" width="52" height="52"/>
+                    <img src="${url.resourcesPath}/img/logo.png" alt="logo" width="52" height="52"/>
                     <p class="login-header-title">School On Air</p>
                 </div>
                 <h3 class="login-title">${msg("loginTitle")}</h3>
