@@ -6,7 +6,7 @@
         <form id="kc-register-form" class="${properties.kcFormClass!}" action="${url.registrationAction}" method="post">
 		<div class="form-group">
 		   <div class="${properties.kcLabelWrapperClass!}">
-		       <label for="user.attributes.kycLevel" class="${properties.kcLabelClass!}">KYC Level</label>
+		       <label for="user.attributes.kycLevel" class="${properties.kcLabelClass!}">${msg("kycLevel")}</label>
 		   </div>
 
 		   <div class="${properties.kcInputWrapperClass!}">
