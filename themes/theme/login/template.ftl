@@ -32,6 +32,21 @@
                             <span class="message-text">${message.summary?no_esc}</span>
                         </div>
                     </#if>
+                    <#if realm.internationalizationEnabled  && locale.supported?size gt 1>
+                        <div class="dropdown-wrapper"> 
+                            <div class="dropdown">
+                                <div class="dropdown-btn">
+                                    <button class="dropbtn">Select language</button>
+                                    <img src="${url.resourcesPath}/img/drop.png" alt="logo" width="20" height="20"/>
+                                </div>
+                                <div class="dropdown-content">
+                                    <#list locale.supported as l>
+                                        <a class="${properties.kcLocaleItemClass!}" href="${l.url}">${l.label}</a>
+                                    </#list>
+                                </div>
+                            </div>
+                        </div>    
+                    </#if>
                     <#nested "form">
                 </div>
             </div>

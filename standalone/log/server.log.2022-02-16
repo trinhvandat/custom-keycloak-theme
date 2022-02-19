@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 2022-02-16 16:28:36,851 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
 2022-02-16 16:28:37,778 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
 2022-02-16 16:28:37,800 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
@@ -17,6 +18,8 @@
 	java.io.tmpdir = /tmp
 	java.library.path = /usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
 =======
+=======
+>>>>>>> 0eb06856f0425dd1ee60764682f50f8e0a78119d
 2022-02-16 07:15:18,107 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\deployments
 2022-02-16 07:15:18,202 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
 2022-02-16 07:15:18,122 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
@@ -92,6 +95,7 @@
 	java.home = C:\Program Files\Java\jre1.8.0_211
 	java.io.tmpdir = C:\Users\PC\AppData\Local\Temp\
 	java.library.path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\PC\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\PC\AppData\Local\Programs\Python\Python39\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;;F:\development tool\IDE\Microsoft VS Code\bin;C:\Users\PC\AppData\Roaming\npm;.
+<<<<<<< HEAD
 >>>>>>> bbdfb662da5150a6e213898b8e2664adb7e785b6
 	java.net.preferIPv4Stack = true
 	java.runtime.name = OpenJDK Runtime Environment
@@ -136,6 +140,27 @@
 	module.path = /home/thuc/code/aibles/BSOA/BE/custom-keycloak-theme/modules
 	org.jboss.boot.log.file = /home/thuc/code/aibles/BSOA/BE/custom-keycloak-theme/standalone/log/server.log
 =======
+=======
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_211-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_211
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.211-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+>>>>>>> 0eb06856f0425dd1ee60764682f50f8e0a78119d
 	jboss.home.dir = F:\Code\BSOA\Keycloak\keycloak-15.0.2
 	jboss.host.name = desktop-tv8kuh0
 	jboss.modules.dir = F:\Code\BSOA\Keycloak\keycloak-15.0.2\modules
@@ -155,6 +180,7 @@
 	logging.configuration = file:F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\configuration/logging.properties
 	module.path = F:\Code\BSOA\Keycloak\keycloak-15.0.2\modules
 	org.jboss.boot.log.file = F:\Code\BSOA\Keycloak\keycloak-15.0.2\standalone\log\server.log
+<<<<<<< HEAD
 >>>>>>> bbdfb662da5150a6e213898b8e2664adb7e785b6
 	org.jboss.resolver.warning = true
 	os.arch = amd64
@@ -280,6 +306,29 @@
 2022-02-16 16:28:56,020 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
 2022-02-16 16:29:38,179 WARN  [org.keycloak.events] (default task-1) type=LOGIN_ERROR, realmId=master, clientId=security-admin-console, userId=f7c6d16f-053d-4c04-9d88-a06881df9e3e, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:8080/auth/admin/master/console/, code_id=c58dc1c4-e8a4-4713-853e-95ea581bfe23, username=admin, authSessionParentId=c58dc1c4-e8a4-4713-853e-95ea581bfe23, authSessionTabId=8fq3jlBcnSo
 =======
+=======
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_211\lib\resources.jar;C:\Program Files\Java\jre1.8.0_211\lib\rt.jar;C:\Program Files\Java\jre1.8.0_211\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_211\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_211\lib\jce.jar;C:\Program Files\Java\jre1.8.0_211\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_211\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_211\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_211\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = F:\Code\BSOA\Keycloak\keycloak-15.0.2\jboss-modules.jar -mp F:\Code\BSOA\Keycloak\keycloak-15.0.2\modules org.jboss.as.standalone -Djboss.home.dir=F:\Code\BSOA\Keycloak\keycloak-15.0.2
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+>>>>>>> 0eb06856f0425dd1ee60764682f50f8e0a78119d
 	user.dir = F:\Code\BSOA\Keycloak\keycloak-15.0.2\bin
 	user.home = C:\Users\PC
 	user.language = en
@@ -617,4 +666,7 @@ Was expecting one of these patterns:
 	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
 	at java.lang.Thread.run(Unknown Source)
 
+<<<<<<< HEAD
 >>>>>>> bbdfb662da5150a6e213898b8e2664adb7e785b6
+=======
+>>>>>>> 0eb06856f0425dd1ee60764682f50f8e0a78119d

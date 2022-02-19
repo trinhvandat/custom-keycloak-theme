@@ -22,15 +22,18 @@
     <#elseif section = "form">
         <div class="login">
             <div>
-                <div class="login-header">
-                    <img src="" alt="logo" width="52" height="52"/>
-                    <p class="login-header-title">School On Air</p>
+                <div class="login-header-title">
+                    <img src="${url.resourcesPath}/img/logo.png" alt="logo" width="52" height="52"/>
+                    <p>School On Air</p>
                 </div>
-                <h3 class="login-title">Đăng nhập</h3>
+                <h3 class="login-title">${msg("loginTitle")}</h3>
                 <#if realm.password>
                     <form id="kc-form-login" class="form" onsubmit="return true;" action="${url.loginAction}" method="post">
-                        <input id="username" class="login-field username" placeholder="${msg("username")}" type="text" name="username" tabindex="1">
-                        <input id="password" class="login-field" placeholder="${msg("password")}" type="password" name="password" tabindex="2">
+                        <input id="username" class="input-field username" placeholder="${msg("username")}" type="text" name="username" tabindex="1">
+                        <input id="password" class="input-field" placeholder="${msg("password")}" type="password" name="password" tabindex="2">
+                        <span class="input-error" aria-live="polite">
+                            mat khau sai
+                        </span>
                         <#if realm.resetPasswordAllowed>
                             <span class="forgot-password"><a tabindex="5" href="${url.loginResetCredentialsUrl}">${msg("doForgotPassword")}</a></span>
                         </#if>
@@ -38,11 +41,11 @@
                     </form>
                 </#if>
                 <div class="login-footer">
-                    <div class="login-footer-hr">
+                    <!--<div class="login-footer-hr">
                         <hr>
                         <div><p>Hoặc đăng nhập</p></div>
-                    </div>
-                    <div class="login-list">
+                    </div>--->
+                    <!--<div class="login-list">
                         <div class="login-item">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2016 3.86907C11.6627 3.84614 13.0762 4.37796 14.1462 5.35332L17.0252 2.59999C15.1777 0.90374 12.733 -0.0274568 10.2016 0.000616804C8.31125 0.000817024 6.45815 0.515726 4.84906 1.48806C3.23997 2.4604 1.93819 3.85185 1.08899 5.5071L4.38469 8.02197C4.78752 6.81936 5.5659 5.77132 6.60977 5.02605C7.65364 4.28078 8.91015 3.87608 10.2016 3.86907Z" fill="#EA4335"/>
@@ -65,8 +68,13 @@
                             </svg>
                             <span>Github</span>
                         </div>
-                    </div>
-                   <p class="login-footer-create"> Chưa có tài khoản? <span><a href="#">Đăng ký</a></span></p>
+                    </div> --->
+                    <#if realm.password && realm.registrationAllowed && !registrationDisabled??>
+                            <div class="login-footer-create">
+                                <span>${msg("noAccount")} <a tabindex="6"
+                                    href="${url.registrationUrl}">${msg("doRegister")}</a></span>
+                            </div>
+                    </#if>
                 </div>
                 <#if social.providers??>
                     <p class="para">${msg("selectAlternative")}</p>
@@ -78,15 +86,5 @@
                 </#if>
             </div>
         </div>
-
-    <#elseif section = "info" >
-        <#if realm.password && realm.registrationAllowed && !registrationDisabled??>
-            <div id="kc-registration-container">
-                <div id="kc-registration">
-                    <span>${msg("noAccount")} <a tabindex="6"
-                                                 href="${url.registrationUrl}">${msg("doRegister")}</a></span>
-                </div>
-            </div>
-        </#if>
     </#if>
 </@layout.registrationLayout>

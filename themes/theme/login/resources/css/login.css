@@ -4,28 +4,74 @@
 }
 .main {
   width: 100%;
-  height: 100vh;
   display: flex;
   background: #FFFFFF;
 }
 
 .background_left{
   width: 50%;
-  height: 100%;
+  min-height:100vh ;
   box-sizing: border-box;
   background: #C4C4C4;
 }
 
 .background_right{
   width: 50%;
-  height: 100%;
+  min-height:100vh ;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
 .background_right_content{
-  margin:100px 0 0 120px;
+  margin-top:100px;
 }
 
+.dropdown-wrapper{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: end;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown .dropdown-btn{
+  display: flex;
+  align-items: center;
+}
+.dropbtn {
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+}
+.dropdown-content {
+  max-height: 320px;
+  overflow: auto;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  color:#8b8989;
+}
 
 #image{
   position: absolute;
@@ -39,6 +85,8 @@
 }
 .login-header-title{
   display: flex;
+  align-items: center;
+  font-size: 29px;
   margin-bottom: 30px;
 }
 .login-header-title img{
@@ -51,7 +99,7 @@
 }
 
 /* Form */
-.form .login-field{
+.form .input-field{
   width: 100%;
   border: 1px solid #8E8E93;
   border-radius: 12px;
@@ -75,6 +123,7 @@
   color:white;
   font-size: 17px;
   margin-top: 16px;
+  /* margin-bottom: 100px; */
 }
 
 /* Login footer */
@@ -113,4 +162,73 @@
   font-size: 16px;
   width: 100%;
   text-align: center;
+}
+.form .input-error{
+  color: red;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+/* Register */
+.register{
+  width: 380px;
+}
+.register-header-title{
+  display: flex;
+  align-items: center;
+  font-size: 29px;
+  margin-bottom: 30px;
+}
+.register-header-title img{
+  margin-right: 10px;
+}
+.register-title{
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.form-group div{
+  margin-bottom: 26px;
+}
+.form-group .input-field{
+  width: 100%;
+  border: 1px solid #8E8E93;
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.form-group .label-field{
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.form-group .input-error{
+  color: red;
+  margin-top: 5px;
+  display: inline-block;
+}
+.form-group a{
+  display: inline-block;
+  width: 100%;
+  text-align: end;
+}
+
+/* Forgot password */
+
+.forgot-password{
+  width: 380px;
+}
+.forgot-password-header-title{
+  display: flex;
+  align-items: center;
+  font-size: 29px;
+  margin-bottom: 30px;
+}
+.forgot-password-header-title img{
+  margin-right: 10px;
+}
+.forgot-password-title{
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 24px;
 }
